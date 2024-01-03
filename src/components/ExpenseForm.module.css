@@ -1,0 +1,197 @@
+
+.expenseForm {
+  max-width: 400px;
+  /* margin-top: 3rem; */
+  margin: 0 auto;
+  margin-left: 35%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: gainsboro;
+}
+
+.formControl {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formActions {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #af38ff;
+  border-color: #540d83;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-right: 10px;
+  flex-direction: row-reverse;
+  /* margin-left: 12rem; */
+
+  
+}
+
+button:hover {
+  background-color: #540d83;
+}
+
+.expenseList{
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+}
+
+/* .buttons{
+  display: flex;
+} */
+/* ExpenseForm.module.css */
+
+.expenseContainer {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: flex-start; */
+  width: 100%;
+  margin-top: 2rem;
+  background-color: white;
+
+}
+.darkTheme .expenseContainer{
+  background-color: black;
+}
+
+.expenseForm {
+  width: 40%;
+}
+
+.formControl {
+  margin-bottom: 1rem;
+}
+
+.formActions {
+  text-align: center;
+}
+
+.expenseList {
+  width: 100%;
+  
+}
+
+.expenseItem {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  width: 100%;
+  background-color: gainsboro;
+
+}
+
+.expenseItem div {
+  /* display: flex; */
+  margin-left: 2rem;
+  justify-content: space-between;
+}
+
+.editForm {
+  width: 40%;
+  margin-top: 1rem;
+  margin-left: 12rem;
+}
+.expenseList button{
+  margin-top: 3rem;
+ 
+} 
+.downloadButton{
+  margin-left: 35rem;
+  margin-bottom: 2rem;
+
+}
+/* ExpenseForm.module.css */
+
+/* Existing styles... */
+
+/* Dark theme styles */
+.darkTheme {
+background-color: #222;
+color: #fff;
+}
+
+.darkTheme .expenseForm {
+border-color: #555;
+background-color: #333;
+}
+
+.darkTheme label {
+color: #fff;
+}
+
+.darkTheme input,
+.darkTheme select {
+color: #333; /* Adjust text color for dark input fields */
+background-color: #fff; /* Adjust background color for dark input fields */
+border-color: #666;
+}
+
+.darkTheme .formActions button {
+background-color: #007bff;
+}
+
+.darkTheme .expenseList {
+background-color: #333;
+}
+.darkTheme .expenseList button{
+margin-top: 3rem;
+background-color: #007bff;
+} 
+
+.darkTheme .expenseItem {
+background-color: #444;
+color: #fff;
+border-color: #555;
+}
+
+.darkTheme .editForm {
+background-color: #333;
+color: #fff;
+border-color: #555;
+}
+
+.darkTheme .editForm label {
+color: #fff;
+}
+
+.darkTheme .editForm input,
+.darkTheme .editForm select {
+color: #333; /* Adjust text color for dark input fields */
+background-color: #fff; /* Adjust background color for dark input fields */
+border-color: #666;
+}
+.downloadButton{
+margin-left: 35rem;
+}
+.darkTheme .downloadButton{
+background-color: #007bff;
+margin-left: 35rem;
+
+}
+/* Add more styles as needed for a complete dark theme */
+
